@@ -17,3 +17,11 @@ patterns = {
     "phone_numbers": r"(\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4})",
     "time": r"\b(?:[01]?[0-9]|2[0-3]):[0-5][0-9](?:\s?[APMapm]{2})?\b"
 }
+
+#Defining a function that will help me extract the patterns
+def extract_patterns(pattern, text):
+    """
+    Find all the patterns for a given regex pattern.
+    """
+
+    return re.findall(pattern, text)
