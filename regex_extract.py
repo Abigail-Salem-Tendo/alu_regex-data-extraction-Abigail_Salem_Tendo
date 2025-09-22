@@ -23,5 +23,11 @@ def extract_patterns(pattern, text):
     """
     Find all the patterns for a given regex pattern.
     """
-
     return re.findall(pattern, text)
+
+#display the main menu for the user
+def show_menu():
+    print("\n Regex Data Extraction Project")
+    print("1. Extract everything\n"
+          "2. Extract one type\n"
+          "3. Exit")
