@@ -31,3 +31,9 @@ def show_menu():
     print("1. Extract everything\n"
           "2. Extract one type\n"
           "3. Exit")
+
+#Function to display a second menu for single extraction
+def show_submenu():
+    print("\n Choose what you would like to extract:")
+    for i, key in enumerate(patterns.keys(), start=1):
+        print("{}) {}".format(i, key.capitalize()))
