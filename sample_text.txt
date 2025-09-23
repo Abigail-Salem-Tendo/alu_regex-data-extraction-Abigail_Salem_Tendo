@@ -1,0 +1,9 @@
+This is the sample text I will be using to test my project.
+Hello everyone, my name is Jessica S. Chen. I can be reached by email at jessica.chen@gmail.com or jchen@company.net. My phone number is (123) 456-7890 and my cell is +1-987-654-3210. I also have a personal number, 123.456.7890.
+
+Here's an important message. Please disregard the expired card number 4567-8901-2345-6789 and use the new one: 5432 1098 7654 3210. The expiration date is 12/26.
+
+The meeting is scheduled for 10:30 AM on Thursday, and we will reconvene at 1:00 PM for the second session. . For more information, you can visit our website https://www.ourcompany.com or the product page at http://www.ourcompany.com/products/new-product. You can also check out our social media channels via ftp://social.com.
+
+We're using the hashtags #DataExtraction and #Regex for this project. The final report is due by 23:59 on Friday. Let's make this project a success!
+

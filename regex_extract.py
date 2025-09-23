@@ -44,14 +44,12 @@ def show_submenu():
 
 # Function for the main program
 def main():
-    text = """
-    Contact me at john.doe@example.com or jane_doe123@company.co.uk.
-    Visit https://www.example.com or http://sub.example.org/page.
-    Call me at (123) 456-7890, 123-456-7890, or 123.456.7890.
-    My credit card numbers: 1234 5678 9012 3456, 1234-5678-9012-3456
-    Meeting times: 14:30, 3:30 PM
-    #meetings #see_you_there
-    """
+    #Welcoming the user
+    print("===============================================\n"
+          "**** Welcome to the Data Extraction Tool ****\n"
+          "===============================================")
+    with open("sample_text.txt", "r") as file:
+        text = file.read()
 
     # Creating an infinite loop for the program
     while True:
