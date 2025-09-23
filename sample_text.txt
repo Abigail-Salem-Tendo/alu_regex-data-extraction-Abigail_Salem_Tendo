@@ -1,0 +1,39 @@
+Contact Information #stayconnected
+Student email: sparkle.student@gmail.com , student.user@university.edu
+Personal email: john.doe.personal@gmail.com , janedoe@workplace.co.uk
+Kenyan number: 254-701-2567
+Tanzanian number: 255 989 2100
+Ugandan number: 256/788/9999
+
+Sample Website URLs:
+Tech Blog: https://techworld.io
+Travel Portal: https://visitkenya.com
+GitHub Repository: https://github.com/user/repo
+Python Docs: https://docs.python.org
+ESPN Sports: https://www.espn.com
+
+Sample Payment Information:
+Visa: 4321 5678 9012 3456
+MasterCard: 5678-1234-8765-4321
+
+Sample Hashtags
+#offers
+#shopnow
+#savemoney:
+#flashsale
+
+Sample Times:
+9:00 AM
+14:45
+12:30 PM
+23:15
+
+**These examples will not be matched by the REgex Patterns because they are invalid**
+Invalid Data Examples:
+wrong email: user@domain , user@@mail.com
+wrong tel no: +254-700-123-1 , 12345
+wrong URL: https://www.example , http:/invalid.com
+fake card: 1234 5678 9abc 1234
+wrong hashtag: # InvalidHashtag
+wrong currency format: $-50 , KES10000,00 , $ 2,000
+wrong times: 25:00 , 13:60 PM
