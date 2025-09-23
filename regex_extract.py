@@ -14,7 +14,7 @@ patterns = {
     "emails": r"[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}",
     "urls": r"https?://[^\s]+",
     "hashtags": r"#\w+",
-    "phone_numbers": r"(\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4})",
+    "phone_numbers": r"\b\(?\d{3}\)?[-/.]?\s?\d{3}[-/.]?\d{4}\b",
     "time": r"\b(?:[01]?[0-9]|2[0-3]):[0-5][0-9](?:\s?[APMapm]{2})?\b"
 }
 
@@ -44,12 +44,17 @@ def show_submenu():
 
 # Function for the main program
 def main():
+    # Read the Sample text from the external file
+    try:
+        with open("sample_text.txt", "r") as file:
+            text = file.read()
+    except FileNotFoundError:
+        print("File not found.")
+
     #Welcoming the user
     print("===============================================\n"
-          "**** Welcome to the Data Extraction Tool ****\n"
+          " **** Welcome to the Data Extraction Tool ****\n"
           "===============================================")
-    with open("sample_text.txt", "r") as file:
-        text = file.read()
 
     # Creating an infinite loop for the program
     while True:
