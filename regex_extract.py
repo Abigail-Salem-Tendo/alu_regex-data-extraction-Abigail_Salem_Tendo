@@ -14,7 +14,7 @@ patterns = {
     "emails": r"[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}",
     "urls": r"https?://[^\s]+",
     "hashtags": r"#\w+",
-    "phone_numbers": r"\b\(?\d{3}\)?[-/.]?\s?\d{3}[-/.]?\d{4}\b",
+    "phone_numbers": r"\b\(?\d{3}\)?[-./\s]?\d{3}[-./\s]?\d{4}\b",
     "time": r"\b(?:[01]?[0-9]|2[0-3]):[0-5][0-9](?:\s?[APMapm]{2})?\b"
 }
 
